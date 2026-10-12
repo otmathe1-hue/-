@@ -566,7 +566,7 @@ async function sendAutoVerifyNotification(member, role, guild) {
             fields: [
                 {
                     name: "✅ Role Assigned",
-                    value: `You now have the <@&${role.id}> role!`,
+                    value: `You now have the ${role.name} role!`,
                     inline: false
                 },
                 {
